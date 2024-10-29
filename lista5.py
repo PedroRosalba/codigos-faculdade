@@ -83,8 +83,8 @@ def print_maze_with_path(maze, path):
 
 # Example usage:
 if __name__ == '__main__':
-    m, n = 5, 7
-    random.seed(10110)
+    m, n = 3, 10
+    random.seed(10)
     maze = generate_maze(m, n)
     print("Generated Maze:")
     print_maze(maze)
